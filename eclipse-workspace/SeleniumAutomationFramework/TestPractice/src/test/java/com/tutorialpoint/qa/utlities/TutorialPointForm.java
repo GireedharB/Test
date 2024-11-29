@@ -1,6 +1,6 @@
 
 /*
- * tutorialpoint execel reading code
+ * tutorialpoint excel reading for input data for Registration form
  */
 
 package com.tutorialpoint.qa.utlities;
