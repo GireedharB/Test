@@ -1,6 +1,6 @@
 /*
-Author Name: Gireedhar Anil Birajdar
-Git testing
+Author Name: Gireedhar Anil Birajdar[Practice test for automation learning]
+
 */
 package com.tutorialpoint.qa.testcases;
 
@@ -37,7 +37,7 @@ public class TestTutorialPointTestcases extends TutorialPointBaseData {
 		driver.findElement(By.xpath(prop.getProperty("Register_button_Xpath_Value"))).click();
 		
 	}
-	@Test(dataProviderClass=TutorialPointForm.class, dataProvider= "tutorialpointformtest")
+	@Test(priority =3,dataProviderClass=TutorialPointForm.class, dataProvider= "tutorialpointformtest")
 	public void Form(String Name, String Email, String Mobile,String DOB, String Subjects, String CurrentAddress, String State, String City) throws InterruptedException {
 		driver.findElement(By.xpath(prop.getProperty("Form_Button_Xpath_value"))).click();
 		driver.findElement(By.linkText(prop.getProperty("Practice_Form_Button_linktext_Value"))).click();	
