@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.zoho.qa.testcases.TestZohoTC1">
+      <class name="com.tutorialpoint.qa.testcases.TestTutorialPointPractice">
         <methods>
+          <include name="tutorialpointlogin"/>
           <include name="TearDown"/>
-          <include name="ZohoLogin"/>
-          <include name="Setup"/>
+          <include name="SetUp"/>
         </methods>
-      </class> <!-- com.zoho.qa.testcases.TestZohoTC1 -->
+      </class> <!-- com.tutorialpoint.qa.testcases.TestTutorialPointPractice -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
